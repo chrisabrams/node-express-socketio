@@ -1,0 +1,22 @@
+{
+    "name": "node-express-socketio",
+    "description": "node.js boilerplate",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "node": "v0.6.15"
+    },
+    "authors": ["Chris Abrams <mail@chrisabrams.com>"],
+    "dependencies": {
+        "connect": "2.0.3",
+        "express": "2.5.4",
+        "jade": "0.25.0",
+        "socket.io": "0.9.5"
+    },
+    "devDependencies": {
+        "mocha": "0.14.1",
+        "should": "0.6.0"
+    }
+}
