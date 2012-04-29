@@ -15,12 +15,11 @@ If node.js is installed run the following:
 	
 	npm start
 
-The server can be found at [0.0.0.0:8081](http://0.0.0.0:8081)  
-Thanks to the package.json there is a shortcut to starting the server.
+The server can be found at [0.0.0.0:8081](http://0.0.0.0:8081)
 
 ##Features
  - View engine is using [Jade](http://github.com/visionmedia/jade)
- - Client/server communication baked into layout.jade using web sockets and the (Socket.io)[http://socket.io] library.
+ - Client/server communication baked into layout.jade using web sockets and the [Socket.io](http://socket.io) library.
 
 ###Theme Organization
 The settings file has a basic theme organization. To change the theme just modify:
