@@ -11,6 +11,9 @@ var settings = {
 			layout: 'themes/default/layout',
 			index: 'themes/default/index'
 		}
+	},
+	controllers: {
+		default: 'hello'
 	}
 };
 
