@@ -11,9 +11,6 @@ require('./config/express')(connect, express, path, server, settings);
 //Socket.io
 require('./lib/sockets')(io, server);
 
-//Helpers
-require('./lib/helpers')(server);
-
 //Routes
 require('./lib/router')(express, server, settings);
 
